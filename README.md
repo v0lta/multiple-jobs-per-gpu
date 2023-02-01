@@ -13,6 +13,12 @@ sbatch first_run.sh
 If you run the tensorboard profiler as described in https://pytorch.org/tutorials/intermediate/tensorboard_profiler_tutorial.html
 you will notice the code is hardly using its gpu to it's full potential.
 
+The plot below shows the tensorbord summary on an A4000 GPU:
+
+![summary](figures/summary.png)
+
+as you can see, GPU utilization sat at only 9.86% in this case.
+
 You can then run a hyperparameter sweep exploring different
 batch sizes on a `single GPU in parallel` via:
 ``` bash

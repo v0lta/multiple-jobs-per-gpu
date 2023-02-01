@@ -133,7 +133,7 @@ def main():
     if args.profiler:
         print("Profiling...")
         prof = torch.profiler.profile(
-            schedule=torch.profiler.schedule(wait=1, warmup=1, active=3, repeat=2),
+            schedule=torch.profiler.schedule(wait=1, warmup=1, active=1, repeat=1),
             profile_memory=True,
             on_trace_ready=torch.profiler.tensorboard_trace_handler('./log/mnistcnn'))
 
