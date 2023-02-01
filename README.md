@@ -26,6 +26,5 @@ sbatch run.sh
 ```
 feel free to take a look at fork.py to see how it works.
 
-gpustat is a nice tool to see how much memory
-each process is using.
-https://github.com/wookayin/gpustat
+on your local machine gpustat is a nice tool to see how much memory
+each process is using https://github.com/wookayin/gpustat .
