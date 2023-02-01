@@ -7,4 +7,4 @@
 
 module load CUDA
 conda activate pytorch
-python main.py
+python main.py --profiler
