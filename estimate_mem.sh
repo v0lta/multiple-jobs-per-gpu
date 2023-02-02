@@ -10,4 +10,4 @@ source /home/mwolter1/.bashrc
 
 module load CUDA
 conda activate pytorch
-python main.py --epochs 5 --profiler
+python main.py --epochs 6 --profiler
